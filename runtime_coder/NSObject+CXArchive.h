@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
-
 @interface NSObject (CXArchive)
 
 - (void)setClass:(const char *)className archiveWithCoder:(NSCoder *)aCoder;//归档

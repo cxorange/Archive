@@ -44,6 +44,7 @@ static   BOOL isArchive;
             [self setValue:value forKey:objc_name];
         }
     }
+    free(ivars);
 }
 
 
