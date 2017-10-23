@@ -16,3 +16,5 @@ aCoder／aDecoder:NSCoder对象
 {
     [self setClass:"Person" archiveWithCoder:aCoder];
 }
+
+//archive
